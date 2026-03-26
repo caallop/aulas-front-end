@@ -1,0 +1,70 @@
+    aula 2:
+    organizar a pagina: entender onde cada componente deve estar
+    tags e estruturais: aprendendo mais, section e footer para dividir a pagina
+    listas: usadas bastante para acessibilidade
+
+
+tags estruturais e suas funçoes:
+header --> topo da pagina --> pode ter uma <nav> dentro, sendo assim uma header de navegaçao -->header pode ser substituido por aside, que seria uma barra lateral com o conteudo
+main --> conteudo principal da pagina
+footer --> rodape do site
+section --> bloco de conteudo
+
+
+--figma é uma plataforma para fazer um site ou estrutura antes mesmo de começar a programar
+
+--menu do tipo hamburguer: abre uma aba com varias opçoes, normal para celular
+
+
+//exemplo para entender o geral da aula:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#"> Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+<hr>
+    <main>
+        <section>
+            <h2> Conteudo principal</h2>
+            <p>este é o texto da minha pagina</p>
+        </section>
+        <aside>
+            <p>Esta é uma informação complementar.</p>
+        </aside>
+    </main>
+    <footer>
+    <p>Rodape do site - direitos reservados</p>
+     </footer>
+</body>
+</html>
+
+
+---------------------------------------------------------------
+
+tags de listas:
+
+ul e li --> lista nao ordenada com marcadores (unordened list)
+ol e li --> lista ordenada com numeros (ordened list)
+
+
+img --> insere imagens, com src e alt.
+<a> --> link clicavel. href = destino
+
+
+exercicio de aula: 
+criar uma pagina com 
+1: titulo com seu nome
+2: pequeno texto
